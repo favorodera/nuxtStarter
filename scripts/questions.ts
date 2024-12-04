@@ -10,31 +10,40 @@ const questions: Question[] = [
     },
     {
         type: 'checkbox',
-        name: 'cssFrameworks',
-        message: 'Select CSS Frameworks:',
-        choices: nuxtModules.cssFrameworks?.map(cssFramework => ({
-            name: cssFramework.name,
-            value: cssFramework.nuxtConfigValue,
+        name: 'cssModules',
+        message: 'Select CSS Modules:',
+        choices: nuxtModules.cssModules?.map(cssModule => ({
+            name: cssModule.name,
+            value: cssModule.nuxtConfigValue,
         })) || []
     },
     {
         type: 'checkbox',
-        name: 'uiFrameworks',
-        message: 'Select UI Frameworks:',
-        choices: nuxtModules.uiFrameworks?.map(uiFramework => ({
-            name: uiFramework.name,
-            value: uiFramework.nuxtConfigValue,
+        name: 'uiModules',
+        message: 'Select UI Modules:',
+        choices: nuxtModules.uiModules?.map(uiModule => ({
+            name: uiModule.name,
+            value: uiModule.nuxtConfigValue,
         })) || []
     },
     {
         type: 'checkbox',
-        name: 'developerTools',
+        name: 'devToolsModules',
         message: 'Select Developer Tools:',
-        choices: nuxtModules.developerTools?.map(developerTool => ({
-            name: developerTool.name,
-            value: developerTool.nuxtConfigValue,
+        choices: nuxtModules.devToolsModules?.map(devTool => ({
+            name: devTool.name,
+            value: devTool.nuxtConfigValue,
         })) || []
-    }
+    },
+    {
+        type: 'checkbox',
+        name: 'cmsModules',
+        message: 'Select CMS Modules:',
+        choices: nuxtModules.cmsModules?.map(cmsModule => ({
+            name: cmsModule.name,
+            value: cmsModule.nuxtConfigValue,
+        })) || []
+    },
 ];
 
 export default questions;

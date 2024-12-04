@@ -24,19 +24,21 @@ interface ModuleConfig {
 interface Answers {
     /** The project name (e.g., 'my-nuxt-app') */
     projectName: string;
-    /** The selected CSS frameworks (e.g., 'unocss', 'tailwindcss') */
-    cssFrameworks: string[];
-    /** The selected UI frameworks (e.g., 'nuxt-ui', 'primevue') */
-    uiFrameworks: string[];
+    /** The selected CSS modules (e.g., 'unocss', 'tailwindcss') */
+    cssModules: string[];
+    /** The selected UI modules (e.g., 'nuxt-ui', 'primevue') */
+    uiModules: string[];
     /** The selected developer tools (e.g., 'eslint', 'devtools') */
-    developerTools: string[];
+    devToolsModules: string[];
+    /** The selected CMS modules (e.g., 'nuxt-studio', 'nuxt-content') */
+    cmsModules: string[];
 }
 
 /** Interface for the CLI Questionnaires */
 interface Question {
     /** The type of the question (e.g., 'input', 'checkbox') */
     type: string;
-    /** Name ID for the question (e.g., 'projectName', 'cssFrameworks', 'uiFrameworks') */
+    /** Name ID for the question (e.g., 'projectName', 'cssModules', 'uiModules') */
     name: string;
     /** The question message */
     message: string;

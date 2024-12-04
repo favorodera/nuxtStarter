@@ -2,7 +2,7 @@ import type { ModuleConfig } from './types.js';
 import getModuleConfigs from './utils/getModuleConfigs.js';
 
 const nuxtModules: Record<string,ModuleConfig[]> = {
-    cssFrameworks: [
+    cssModules: [
         {
             name: 'Unocss',
             nuxtConfigValue: '@unocss/nuxt',
@@ -10,19 +10,19 @@ const nuxtModules: Record<string,ModuleConfig[]> = {
             additionalNpmPackages: ['unocss', '@unocss/reset'],
             configFile: {
                 name: 'uno.config.ts',
-                content: getModuleConfigs('cssFrameworks', 'unocss', 'fileConfiguration')
+                content: getModuleConfigs('cssModules', 'unocss', 'fileConfiguration')
             },
-            nuxtConfigConfiguration: getModuleConfigs('cssFrameworks', 'unocss', 'nuxtConfiguration')
+            nuxtConfigConfiguration: getModuleConfigs('cssModules', 'unocss', 'nuxtConfiguration')
         }
     ],
-    uiFrameworks: [
+    uiModules: [
         {
             name: 'Nuxt UI',
             nuxtConfigValue: '@nuxt/ui',
             npmPackageName: '@nuxt/ui',
         }
     ],
-    developerTools: [
+    devToolsModules: [
         {
             name: 'Eslint',
             nuxtConfigValue: '@nuxt/eslint',
@@ -30,9 +30,27 @@ const nuxtModules: Record<string,ModuleConfig[]> = {
             additionalNpmPackages:['eslint'],
             configFile: {
                 name: 'eslint.config.mjs',
-                content: getModuleConfigs('developerTools', 'eslint', 'fileConfiguration')
+                content: getModuleConfigs('devToolsModules', 'eslint', 'fileConfiguration')
             },
-            nuxtConfigConfiguration: getModuleConfigs('developerTools', 'eslint', 'nuxtConfiguration')
+            nuxtConfigConfiguration: getModuleConfigs('devToolsModules', 'eslint', 'nuxtConfiguration')
+        }
+    ],
+    cmsModules: [
+        {
+            name: 'Nuxt Content',
+            nuxtConfigValue: '@nuxt/content',
+            npmPackageName: '@nuxt/content',
+            nuxtConfigConfiguration: getModuleConfigs('cmsModules', 'nuxtContent', 'nuxtConfiguration')
+        },
+        {
+            name: 'Nuxt Studio',
+            nuxtConfigValue: '@nuxthq/studio',
+            npmPackageName: '@nuxthq/studio',
+            configFile: {
+                name: 'nuxt.schema.ts',
+                content: getModuleConfigs('cmsModules', 'nuxtStudio', 'fileConfiguration')
+            },
+            nuxtConfigConfiguration: getModuleConfigs('cmsModules', 'nuxtStudio', 'nuxtConfiguration')
         }
     ]
 }

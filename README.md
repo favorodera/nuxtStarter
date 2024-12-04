@@ -25,15 +25,7 @@ Simply run:
 nuxt-new
 ```
 
-Follow the interactive prompts to configure your project with(More modules coming soon...):
-
-### CSS Frameworks
-- UnoCSS
-- More frameworks coming soon...
-
-### Developer Tools
-- ESLint
-- More tools coming soon...
+Follow the interactive prompts to configure your project (More modules coming soon...):
 
 ###
 
