@@ -21,7 +21,8 @@
     "nuxt-new": "./output/index.js"
   },
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
   },
   "files": [
     "output"
@@ -36,7 +37,6 @@
   },
   "keywords": [
     "nuxt",
-    "scaffold new nuxt",
     "cli"
   ]
 }

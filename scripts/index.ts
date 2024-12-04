@@ -1,7 +1,9 @@
-import path from 'path';
+#!/usr/bin/env node
+
+import path from 'node:path';
 import prompt from './utils/prompt.js';
-import { existsSync } from 'fs';
-import { execSync } from 'child_process';
+import { existsSync } from 'node:fs';
+import { execSync } from 'node:child_process';
 import getModulesPackages from './utils/getModulesPackages.js';
 import getModuleNuxtConfig from './utils/getModuleNuxtConfig.js';
 import updateNuxtModules from './utils/updateNuxtModules.js';
