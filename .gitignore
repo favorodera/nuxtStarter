@@ -1,0 +1,5 @@
+# Nuxt dev/build outputs
+output
+
+# Node dependencies
+node_modules

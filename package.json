@@ -1,0 +1,42 @@
+{
+  "name": "@favorodera/nuxt-starter",
+  "version": "1.0.1",
+  "description": "Scaffolding tool thats enables you to create your Nuxt projects on the GO",
+  "author": {
+    "name": "Favour Emeka",
+    "email": "favorodera@gmail.com",
+    "url": "https://favorodera.vercel.app/"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/favorodera/nuxtStarter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/favorodera/nuxtStarter/issues"
+  },
+  "homepage": "https://github.com/favorodera/nuxtStarter#readme",
+  "type": "module",
+  "bin": {
+    "nuxt-new": "./output/index.js"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "files": [
+    "output"
+  ],
+  "dependencies": {
+    "inquirer": "^12.1.0"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7",
+    "@types/node": "^22.10.1",
+    "typescript": "^5.7.2"
+  },
+  "keywords": [
+    "nuxt",
+    "scaffold new nuxt",
+    "cli"
+  ]
+}
