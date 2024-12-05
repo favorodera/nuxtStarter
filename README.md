@@ -31,7 +31,7 @@ Follow the interactive prompts to configure your project (More modules coming so
 
 Then run your linting tool and start coding!
 
-### Updating
+## Updating
 
 To update to the latest version, run:
 
