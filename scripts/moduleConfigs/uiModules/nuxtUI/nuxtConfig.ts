@@ -4,5 +4,5 @@ export default {
         fallback: 'dark',
         storage: 'localStorage',
         storageKey: 'color-mode',
-    },
+    }
 }
