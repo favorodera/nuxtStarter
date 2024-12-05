@@ -20,6 +20,12 @@ const nuxtModules: Record<string,ModuleConfig[]> = {
             name: 'Nuxt UI',
             nuxtConfigValue: '@nuxt/ui',
             npmPackageName: '@nuxt/ui',
+        },
+        {
+            name: 'Nuxt Color Mode',
+            nuxtConfigValue: '@nuxtjs/color-mode',
+            npmPackageName: '@nuxtjs/color-mode',
+            nuxtConfigConfiguration: getModuleConfigs('uiModules', 'nuxtColorMode', 'nuxtConfiguration')
         }
     ],
     devToolsModules: [
