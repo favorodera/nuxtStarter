@@ -31,6 +31,14 @@ Follow the interactive prompts to configure your project (More modules coming so
 
 Then run your linting tool and start coding!
 
+### Updating
+
+To update to the latest version, run:
+
+```bash
+npm update -g @favorodera/nuxt-starter
+```
+
 ## Contributing
 
 1. Fork the repository
