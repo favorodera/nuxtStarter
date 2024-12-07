@@ -10,7 +10,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/favorodera/nuxtStarter.git"
+    "url": "git+https://github.com/favorodera/nuxtStarter.git"
   },
   "bugs": {
     "url": "https://github.com/favorodera/nuxtStarter/issues"
@@ -18,7 +18,7 @@
   "homepage": "https://github.com/favorodera/nuxtStarter#readme",
   "type": "module",
   "bin": {
-    "nuxt-new": "./output/index.js"
+    "nuxt-new": "output/index.js"
   },
   "scripts": {
     "build": "tsc",
