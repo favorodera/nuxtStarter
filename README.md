@@ -1,62 +1,67 @@
 # Nuxt Starter
 
-A CLI tool that helps you scaffold new Nuxt.js projects skipping the manual module installation and configuration process.
+A CLI tool that helps you scaffold new Nuxt.js projects with zero configuration. Skip the manual module installation and configuration process.
 
-## Features
+## 🚀 Features
 
 - 🚀 Quick project setup
 - 📦 Popular module integration
 - ⚡ Zero configuration needed
-- 🔧 Automatic module's configuration file setup
-- 🔧 Automatic module's nuxt Configuration setup
+- 🔧 Automatic module configuration
 - 🎉 Easy to use
 
-## Installation
+## 🚀 Quick Start
 
 ```bash
-npm install -g @favorodera/nuxt-starter
+npx @favorodera/nuxt-starter@latest
 ```
 
-## Usage
-
-Simply run:
-
-```bash
-nuxt-new
-```
-
-Follow the interactive prompts to configure your project (More modules coming soon...):
-
-###
+That's it! Follow the interactive prompts to configure your project with your preferred modules.
 
 Then run your linting tool and start coding!
 
-## Updating
+## 📦 Available Modules
 
-To update to the latest version, run:
+Currently, the following modules are available: (More coming soon!). Pull requests for new module integrations are warmly welcomed and appreciated!
 
-```bash
-npm update -g @favorodera/nuxt-starter
-```
+### 📝 CMS
+- Nuxt Content
+- Nuxt Studio
 
-## Contributing
+### 🎨 CSS
+- UnoCSS
+
+### 🛠️ Dev Tools
+- ESLint
+
+### 🎯 UI
+- Nuxt Color Mode
+- Nuxt UI
+
+### 📦 Extensions
+- Pinia
+
+### 🚀 Want Something More Personalized?
+Fork the repository and add your own modules and configurations!
+
+## 🤝 Contributing
 
 1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
+2. Create your feature branch (`git checkout -b modules/new-module`)
+3. Commit your changes (`git commit -m 'Added new module'`)
+4. Push to the branch (`git push origin modules/new-module`)
 5. Open a Pull Request
 
-## License
+## 📝 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## Author
+## 🎖 Author
 
 **Favour Emeka**
 - Website: [favorodera.vercel.app](https://favorodera.vercel.app/)
 - GitHub: [@favorodera](https://github.com/favorodera)
 
-## Support
+## 🙏 Support
 
 If you find this tool helpful, please consider giving it a ⭐️ on [GitHub](https://github.com/favorodera/nuxtStarter) 🙏!

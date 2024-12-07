@@ -44,6 +44,15 @@ const questions: Question[] = [
             value: cmsModule.nuxtConfigValue,
         })) || []
     },
+    {
+        type: 'checkbox',
+        name: 'extensionModules',
+        message: 'Select Extension Modules:',
+        choices: nuxtModules.extensionModules?.map(extensionModule => ({
+            name: extensionModule.name,
+            value: extensionModule.nuxtConfigValue,
+        })) || []
+    }
 ];
 
 export default questions;

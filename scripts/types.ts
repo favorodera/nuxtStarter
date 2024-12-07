@@ -32,6 +32,8 @@ interface Answers {
     devToolsModules: string[];
     /** The selected CMS modules (e.g., 'nuxt-studio', 'nuxt-content') */
     cmsModules: string[];
+    /** The selected extension modules (e.g., 'pinia') */
+    extensionModules: string[];
 }
 
 /** Interface for the CLI Questionnaires */

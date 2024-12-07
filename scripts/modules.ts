@@ -58,6 +58,15 @@ const nuxtModules: Record<string,ModuleConfig[]> = {
             },
             nuxtConfigConfiguration: getModuleConfigs('cmsModules', 'nuxtStudio', 'nuxtConfiguration')
         }
+    ],
+    extensionModules: [
+        {
+            name: 'Pinia',
+            nuxtConfigValue: '@pinia/nuxt',
+            npmPackageName: '@pinia/nuxt',
+            additionalNpmPackages: ['pinia'],
+            nuxtConfigConfiguration: getModuleConfigs('extensionModules', 'pinia', 'nuxtConfiguration')
+        }
     ]
 }
 
