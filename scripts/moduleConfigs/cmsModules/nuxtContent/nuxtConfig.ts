@@ -1,6 +1,9 @@
 export default {
   content: {
     documentDriven: true,
+    markdown: {
+      mdc: true,
+    },
     highlight: {
       langs: [
         // ...

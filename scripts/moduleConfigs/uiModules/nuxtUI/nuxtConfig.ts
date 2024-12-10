@@ -1,7 +1,7 @@
 export default {
     colorMode: {
-        preference: 'dark',
-        fallback: 'dark',
+        preference: 'system',
+        fallback: 'light',
         storage: 'localStorage',
         storageKey: 'color-mode',
     }
