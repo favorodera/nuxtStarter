@@ -86,25 +86,12 @@ async function starter() {
 
         console.log('Project prepared and created successfully 🎉');
 
-        // Prompt on wether to start development server
-        const startDevelopmentServer = await inquirer.prompt([
-            {
-                type: 'confirm',
-                name: 'startDevelopmentServer',
-                message: 'Start development server?',
-                default: true
-            }
-        ]);
+        console.log(`Run cd ${answers.projectName}`)
 
-        if (startDevelopmentServer.startDevelopmentServer) {
-            console.log('Starting development server... 🚀');
+        console.log('Then run your linting/formatting tool');
 
-            execSync(
-                'npm run dev',
-                { stdio: 'inherit' }
-            );
-        }
-
+        console.log('Finally run `npm run dev` to start the development server.');
+        
     } catch (error) {
         console.error('Error:', error);
         process.exit(1);

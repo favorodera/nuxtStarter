@@ -7,6 +7,10 @@ export default withNuxt({
       maxEOF: 1,
       maxBOF: 0,
     }],
+    '@stylistic/padded-blocks': 'off',
+    '@stylistic/no-trailing-spaces': ['error', {
+      skipBlankLines: true,
+    }],
     'vue/multi-word-component-names': 'off',
     'vue/multiline-html-element-content-newline': ['error', {
       allowEmptyLines: true,

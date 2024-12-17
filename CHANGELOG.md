@@ -1,5 +1,18 @@
 # Changelog
 
+## [ 1.0.8 ] - 2024-12-17
+
+### Added
+- Nothing new
+
+### Changed
+- File config for eslint module (eslint.config.mjs)
+- Modules installation process removing the development sever prompt and replacing it with a guide to run change directory to new project and run linting tool
+
+### Fixed
+- Nothing was fixed
+
+
 ## [1.0.8] - 2024-12-10
 
 ### Added
