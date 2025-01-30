@@ -34,6 +34,8 @@ interface Answers {
     cmsModules: string[];
     /** The selected extension modules (e.g., 'pinia') */
     extensionModules: string[];
+    /** The selected database modules (e.g., 'supabase') */
+    databaseModules: string[];
 }
 
 /** Interface for the CLI Questionnaires */

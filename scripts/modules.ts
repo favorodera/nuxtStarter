@@ -67,6 +67,15 @@ const nuxtModules: Record<string,ModuleConfig[]> = {
             additionalNpmPackages: ['pinia'],
             nuxtConfigConfiguration: getModuleConfigs('extensionModules', 'pinia', 'nuxtConfiguration')
         }
+    ],
+    databaseModules: [
+        {
+            name: 'Supabase',
+            nuxtConfigValue: '@nuxtjs/supabase',
+            npmPackageName: '@nuxtjs/supabase',
+            additionalNpmPackages: ['supabase'],
+            nuxtConfigConfiguration: getModuleConfigs('databaseModules', 'supabase', 'nuxtConfiguration')
+        }
     ]
 }
 

@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.0.10] - 2024-12-20
+
+### Added
+- New Database Modules category
+- Added Supabase as the first database module
+
+### Changed
+- Nothing was changed
+
+### Fixed
+- Nothing was fixed
+
 ## [ 1.0.9 ] - 2024-12-17
 
 ### Added

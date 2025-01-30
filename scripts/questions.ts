@@ -52,6 +52,15 @@ const questions: Question[] = [
             name: extensionModule.name,
             value: extensionModule.nuxtConfigValue,
         })) || []
+    },
+    {
+        type: 'checkbox',
+        name: 'databaseModules',
+        message: 'Select Database Modules:',
+        choices: nuxtModules.databaseModules?.map(databaseModule => ({
+            name: databaseModule.name,
+            value: databaseModule.nuxtConfigValue,
+        })) || []
     }
 ];
 
