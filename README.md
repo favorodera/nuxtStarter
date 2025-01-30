@@ -41,6 +41,9 @@ Currently, the following modules are available: (More coming soon!). Pull reques
 ### 📦 Extensions
 - Pinia
 
+### 🚀 Database
+- Supabase
+
 ### 🚀 Want Something More Personalized?
 Fork the repository and add your own modules and configurations!
 
