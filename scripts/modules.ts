@@ -26,6 +26,13 @@ const nuxtModules: Record<string,ModuleConfig[]> = {
             nuxtConfigValue: '@nuxtjs/color-mode',
             npmPackageName: '@nuxtjs/color-mode',
             nuxtConfigConfiguration: getModuleConfigs('uiModules', 'nuxtColorMode', 'nuxtConfiguration')
+        },
+        {
+            name: 'Nuxt Icon',
+            nuxtConfigValue: '@nuxt/icon',
+            npmPackageName: '@nuxt/icon',
+            additionalNpmPackages: ['@iconify-json/hugeicons'],
+            nuxtConfigConfiguration:getModuleConfigs('uiModules','nuxtIcon','nuxtConfiguration')
         }
     ],
     devToolsModules: [
@@ -69,6 +76,14 @@ const nuxtModules: Record<string,ModuleConfig[]> = {
             npmPackageName: '@nuxtjs/supabase',
             additionalNpmPackages: ['supabase'],
             nuxtConfigConfiguration: getModuleConfigs('databaseModules', 'supabase', 'nuxtConfiguration')
+        }
+    ],
+    fontsModules: [
+        {
+            name: 'Nuxt Fonts',
+            nuxtConfigValue: '@nuxt/fonts',
+            npmPackageName: '@nuxt/fonts',
+            nuxtConfigConfiguration: getModuleConfigs('fontsModules', 'nuxtFonts', 'nuxtConfiguration')
         }
     ]
 }

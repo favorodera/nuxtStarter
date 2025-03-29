@@ -1,5 +1,15 @@
 # Changelog
 
+## [1.1.11] - 2025-03-29
+
+### Added
+- New module category "Fonts Module"
+- Nuxt Icon Module to UI Module
+- Nuxt Fonts to Fonts Module
+
+### Changed
+- Updated README to support changes
+
 ## [1.0.11] - 2025-03-29
 
 ### Added

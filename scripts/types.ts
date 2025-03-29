@@ -30,12 +30,13 @@ interface Answers {
     uiModules: string[];
     /** The selected developer tools (e.g., 'eslint', 'devtools') */
     devToolsModules: string[];
-    /** The selected CMS modules (e.g., 'nuxt-studio', 'nuxt-content') */
+    /** The selected CMS modules (e.g., 'nuxt-content') */
     cmsModules: string[];
     /** The selected extension modules (e.g., 'pinia') */
     extensionModules: string[];
     /** The selected database modules (e.g., 'supabase') */
-    databaseModules: string[];
+    fontsModules: string[];
+    /**The Selected fonts modules (e.g., nuxt-fonts) */
 }
 
 /** Interface for the CLI Questionnaires */

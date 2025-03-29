@@ -36,6 +36,10 @@ Currently, the following modules are available: (More coming soon!). Pull reques
 ### 🎯 UI
 - Nuxt Color Mode
 - Nuxt UI
+- Nuxt Icon
+
+### 🔠 Fonts
+- Nuxt Fonts
 
 ### 📦 Extensions
 - Pinia

@@ -61,6 +61,15 @@ const questions: Question[] = [
             name: databaseModule.name,
             value: databaseModule.nuxtConfigValue,
         })) || []
+    },
+    {
+        type: 'checkbox',
+        name: 'fontsModules',
+        message: 'Select Fonts Modules:',
+        choices: nuxtModules.fontsModules?.map(fontsModule => ({
+            name: fontsModule.name,
+            value: fontsModule.nuxtConfigValue,
+        })) || []
     }
 ];
 
