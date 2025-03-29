@@ -46,18 +46,12 @@ const nuxtModules: Record<string,ModuleConfig[]> = {
             name: 'Nuxt Content',
             nuxtConfigValue: '@nuxt/content',
             npmPackageName: '@nuxt/content',
+            configFile: {
+                name: 'content.config.ts',
+                content: getModuleConfigs('cmsModules', 'nuxtContent', 'fileConfiguration')
+            },
             nuxtConfigConfiguration: getModuleConfigs('cmsModules', 'nuxtContent', 'nuxtConfiguration')
         },
-        {
-            name: 'Nuxt Studio',
-            nuxtConfigValue: '@nuxthq/studio',
-            npmPackageName: '@nuxthq/studio',
-            configFile: {
-                name: 'nuxt.schema.ts',
-                content: getModuleConfigs('cmsModules', 'nuxtStudio', 'fileConfiguration')
-            },
-            nuxtConfigConfiguration: getModuleConfigs('cmsModules', 'nuxtStudio', 'nuxtConfiguration')
-        }
     ],
     extensionModules: [
         {

@@ -1,18 +1,27 @@
 export default {
   content: {
-    documentDriven: true,
-    markdown: {
-      mdc: true,
+    preview: {
+      api: 'https://api.nuxt.studio',
     },
-    highlight: {
-      langs: [
-        // ...
-      ],
-      theme: {
-        default: 'github-dark',
-        dark: 'github-dark',
-        light: 'github-light',
+    build: {
+      markdown: {
+        highlight: {
+          theme: {
+            default: 'ayu-dark',
+            dark: 'ayu-dark',
+            light: 'ayu-dark',
+          },
+          langs: [
+            'vue-html',
+            'bash',
+            'typescript',
+            'console',
+          ],
+        },
       },
+    },
+    renderer: {
+      anchorLinks: true,
     },
   }
 }

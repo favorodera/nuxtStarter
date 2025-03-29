@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.0.11] - 2025-03-29
+
+### Added
+- Nuxt content `content.config.ts` configuration file
+
+### Changed
+- Nuxt content nuxt configuration to support latest version
+- Updated README to support changes
+
+### Removed
+- Nuxt studio module to support nuxt content preview API on nuxt content
+
 ## [1.0.10] - 2024-12-20
 
 ### Added

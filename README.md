@@ -26,7 +26,6 @@ Currently, the following modules are available: (More coming soon!). Pull reques
 
 ### 📝 CMS
 - Nuxt Content
-- Nuxt Studio
 
 ### 🎨 CSS
 - UnoCSS
